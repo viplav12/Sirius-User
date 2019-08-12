@@ -1,0 +1,11 @@
+
+vsquid:S00116<"WRename this field "catalog_item" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ƒ‡8€ãçÇ-
+‰"squid:ClassVariableVisibilityCheck9"TMake txt_name a static final constant or non-public and provide accessors if needed.(ÒÛ™Ÿ8•¤ÊáÇ-
+zsquid:S00116:"VRename this field "txt_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ®›öùÿÿÿÿ8û•ßÇ-
+"squid:ClassVariableVisibilityCheck;"VMake txt_userId a static final constant or non-public and provide accessors if needed.(…ñ®©øÿÿÿÿ8¾Ş¥”È-
+Jsquid:S1905"'Remove this unnecessary cast to "List".(ãªëÔøÿÿÿÿ8Ì «ìÆ-
+‘"squid:ClassVariableVisibilityCheck:"WMake txt_address a static final constant or non-public and provide accessors if needed.(ƒ®›öùÿÿÿÿ8û•ßÇ-
+"squid:ClassVariableVisibilityCheck<"XMake catalog_item a static final constant or non-public and provide accessors if needed.(¤ƒ‡8€ãçÇ-
+ysquid:S00116;"URename this field "txt_userId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ñ®©øÿÿÿÿ8¾Ş¥”È-
+…squid:S1488""gImmediately return this expression instead of assigning it to the temporary variable "modalViewHolder".(…¥áÊ8ùç£ÂÇ-
+rsquid:S001169"SRename this field "txt_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÛ™Ÿ8•¤ÊáÇ-

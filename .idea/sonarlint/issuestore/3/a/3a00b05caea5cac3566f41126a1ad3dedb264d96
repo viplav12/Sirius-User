@@ -1,0 +1,6 @@
+
+‡"squid:ClassVariableVisibilityCheck"RMake client a static final constant or non-public and provide accessors if needed.(þ¸–º8©É¡çÆ-
+nsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(‰“‰šøÿÿÿÿ8Ì…¤¶Ç-
+Ÿsquid:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹€³8“ÀÉÞÇ-
+]squid:S1118":Add a private constructor to hide the implicit public one.(²Ú¢úûÿÿÿÿ8øŸ³Ç-
+Jsquid:S1444",Make this "public static client" field final(þ¸–º8©É¡çÆ-

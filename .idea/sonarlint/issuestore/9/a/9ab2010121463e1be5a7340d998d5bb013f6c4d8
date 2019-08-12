@@ -1,0 +1,7 @@
+
+jsquid:S00116"RRename this field "Manager" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÉ´€
+|squid:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(œŠÊ…ùÿÿÿÿ8Îÿ±ìÆ-
+ksquid:S1192G"HDefine a constant instead of duplicating this literal "address" 6 times.(Õ¾Ş¹ıÿÿÿÿ8‚¨£áÇ-
+Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8úÀçÆ-
+Fsquid:S1148c"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¸šùßÇ-
+Rsquid:S1905("/Remove this unnecessary cast to "RecyclerView".(àˆÓ¬úÿÿÿÿ8Ÿ½½ŠÈ-
