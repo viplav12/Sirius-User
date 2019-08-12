@@ -68,12 +68,15 @@ public class MainActivity extends AppCompatActivity implements ICallListner {
                             JSONObject customModalObj = jsonArray.getJSONObject(i);
 
                             String userNameResponse = customModalObj.getString("username");
-                            String userAddressStreet = customModalObj.getJSONObject("address").getString("street");
-                            String userAddressSuit = customModalObj.getJSONObject("address").getString("suite");
-                            String userAddressCity = customModalObj.getJSONObject("address").getString("city");
-                            String userAddressZipcode = customModalObj.getJSONObject("address").getString("zipcode");
-                            String userAddressGeoLat = customModalObj.getJSONObject("address").getJSONObject("geo").getString("lat");
-                            String userAddressGeoLon = customModalObj.getJSONObject("address").getJSONObject("geo").getString("lng");
+
+                            JSONObject addressObj = customModalObj.getJSONObject("address");
+                            String userAddressStreet = addressObj.getString("street");
+                            String userAddressSuit = addressObj.getString("suite");
+                            String userAddressCity = addressObj.getString("city");
+                            String userAddressZipcode = addressObj.getString("zipcode");
+                            String userAddressGeoLat = addressObj.getJSONObject("geo").getString("lat");
+                            String userAddressGeoLon = addressObj.getJSONObject("geo").getString("lng");
+
                             String completeAddress = userAddressStreet + ", " + userAddressSuit + "\n" +
                                     userAddressCity + ", " + userAddressZipcode + "\n" + userAddressGeoLat + " " + userAddressGeoLon;
                             String userId = customModalObj.getString("id");

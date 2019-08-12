@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sirius</string>
+    <string name="blank">%d</string>
 </resources>

@@ -64,6 +64,7 @@ public class CustomAdapter extends
 
             txt_name = (TextView) itemLayoutView.findViewById(R.id.user_name);
             txt_address = (TextView) itemLayoutView.findViewById(R.id.txt_address);
+            txt_address.setText(R.string.blank);
 
             itemLayoutView.setOnClickListener(new View.OnClickListener() {
                 @Override
