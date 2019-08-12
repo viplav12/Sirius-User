@@ -1,0 +1,27 @@
+pool:
+  name: Hosted VS2017
+  demands: java
+
+# Pipeline tasks to build an android app , run JUnit test cases and publish the artifacts.
+steps:
+- task: Gradle@2
+  displayName: 'Build Repo with gradle and JUnit tests'
+  inputs:
+    gradleWrapperFile: '$(Parameters.wrapperScript)'
+    tasks: '$(Parameters.tasks)'
+    testResultsFiles: app/src/test/
+    testRunTitle: 'Run JUnit test case and publish'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to Output: $(build.artifactstagingdirectory)'
+  inputs:
+    SourceFolder: '$(system.defaultworkingdirectory)'
+    Contents: '**/*.apk'
+    TargetFolder: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
