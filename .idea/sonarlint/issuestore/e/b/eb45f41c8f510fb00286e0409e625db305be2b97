@@ -1,23 +1,23 @@
 
-zsquid:S1450"WRemove the "txt_body" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
-csquid:S2147k"ECombine this catch with the one at line 105, which has the same body.(”ı¾8óûèŒÈ-
-€squid:S00116"\Rename this field "txt_userId_Detail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8¥È‘ŠÈ-
-Fsquid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óûèŒÈ-
-nsquid:S1301u"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8ñÚ»•È-
-ysquid:S00116"URename this field "txt_userId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8©Ò¾ãÇ-
-nsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(‘êöéúÿÿÿÿ8—ãë—È-
-{squid:S00116"WRename this field "txt_userName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8ù´ŠÈ-
-Jsquid:S1659"'Declare "txt_title" on a separate line.(ëÓŠ»ûÿÿÿÿ8£¶”ŠÈ-
-Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óûèŒÈ-
+isquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(ìÄÎë8Ò÷ë—È-
 nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(¥šÌšıÿÿÿÿ8Õ¬æ–È-
-~squid:S1450"[Remove the "txt_userName" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
-ƒsquid:S1450"`Remove the "txt_userId_Detail" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
-Ksquid:S1659"(Declare "txt_userId" on a separate line.(ëÓŠ»ûÿÿÿÿ8©Ò¾ãÇ-
-|squid:S1450"YRemove the "txt_userId" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8Ü×¨—È-
-{squid:S1450"XRemove the "txt_title" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
-Fsquid:S1148l"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óûèŒÈ-
-xsquid:S00116"TRename this field "txt_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8£¶”ŠÈ-
-wsquid:S00116"SRename this field "txt_body" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8£¶”ŠÈ-
+nsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(‘êöéúÿÿÿÿ8—ãë—È-
+Jsquid:S1659"'Declare "txt_title" on a separate line.(ëÓŠ»ûÿÿÿÿ8£¶”ŠÈ-
+csquid:S2147k"ECombine this catch with the one at line 105, which has the same body.(”ı¾8óûèŒÈ-
+Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óûèŒÈ-
 Msquid:S1659"*Declare "txt_userName" on a separate line.(ëÓŠ»ûÿÿÿÿ8ù´ŠÈ-
 Isquid:S1659"&Declare "txt_body" on a separate line.(ëÓŠ»ûÿÿÿÿ8£¶”ŠÈ-
-isquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(ìÄÎë8Ò÷ë—È-
+Fsquid:S1148l"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óûèŒÈ-
+zsquid:S1450"WRemove the "txt_body" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
+~squid:S1450"[Remove the "txt_userName" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
+ƒsquid:S1450"`Remove the "txt_userId_Detail" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
+€squid:S00116"\Rename this field "txt_userId_Detail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8¥È‘ŠÈ-
+ysquid:S00116"URename this field "txt_userId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8©Ò¾ãÇ-
+{squid:S1450"XRemove the "txt_title" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8»²ë—È-
+xsquid:S00116"TRename this field "txt_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8£¶”ŠÈ-
+{squid:S00116"WRename this field "txt_userName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8ù´ŠÈ-
+wsquid:S00116"SRename this field "txt_body" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÓŠ»ûÿÿÿÿ8£¶”ŠÈ-
+Ksquid:S1659"(Declare "txt_userId" on a separate line.(ëÓŠ»ûÿÿÿÿ8©Ò¾ãÇ-
+nsquid:S1301u"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8ñÚ»•È-
+|squid:S1450"YRemove the "txt_userId" field and declare it as a local variable in the relevant methods.(ëÓŠ»ûÿÿÿÿ8Ü×¨—È-
+Fsquid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óûèŒÈ-

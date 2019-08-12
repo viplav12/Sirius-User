@@ -32,3 +32,5 @@ p
 @app/src/androidTest/java/com/sirius/ExampleInstrumentedTest.java,d/c/dce030331758df5bea97d672b21f76d4938ba63d
 h
 8app/src/test/java/com/sirius/UserDetailActivityTest.java,a/b/ab9b1e20b62c47c0572c0cc12b16799ec791c323
+;
+app/app.iml,7/c/7c1d2a1927c01fa75a9b4c74ea8addcc06b327ae
